@@ -1,0 +1,256 @@
+body
+{margin:0;
+padding:0;
+background:#4f4645;
+scroll-behaviour:smooth;}
+
+
+
+
+h1
+{
+margin:40px;
+}
+.titl
+{
+background: #FF0000;
+background: -webkit-linear-gradient(to left, #FF0000 20%, #003000 75%, #000000 100%);
+background: -moz-linear-gradient(to left, #FF0000 20%, #003000 75%, #000000 100%);
+background: linear-gradient(to left, #FF0000 20%, #003000 75%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+nav
+{
+position:fixed;
+background:transparent;
+height:60px;
+position:fixed;
+width:100%;
+}
+.navabg
+{
+color:black;
+animation: change 2.5s linear both;
+}
+
+navn{
+position:fixed;
+height:60px;
+background:transparent;
+}
+
+nav li
+{
+display:inline;
+list-style-type:none;
+}
+nav li a
+{
+text-decoration:none;
+padding: 0px 20px 0px 20px;
+font-size:125%;
+color:white
+}
+
+
+.navabg li
+{
+display:inline;
+list-style-type:none;
+}
+.navabg li a
+{
+text-decoration:none;
+padding: 0px 20px 0px 20px;
+font-size:125%;
+color:black
+}
+
+
+
+.poster img
+{
+width:98vw;
+height:100vh;
+}
+
+
+.box
+{
+display:flex;
+place-items:center;
+justify-content:center;
+width:100%;
+height:280px;
+}
+.box button
+{
+display:inline-block;
+border-radius:50%;
+border:none;
+text-align:center;
+background:transparent;}
+
+.box button :hover
+{
+animation: hov 0.3s linear both;
+}
+
+.cast
+{display:inline-block;
+width: 90vw;
+height:280px;
+border: 2px solid grey;
+border-radius:10px;
+overflow:hidden;
+white-space:nowrap;
+background:black;
+}
+
+.cast #wrape
+{
+height:290px;
+overflow:auto;
+}
+
+.card
+{
+display:inline-block;
+width:175px;
+background:white;
+border:1px silver solid;
+border-radius:15px;
+MARGIN: 10PX;
+
+}
+
+.card .card-cont
+{
+position:absoulute;
+display:flex;
+flex-flow:wrap column;
+justify-content:center;
+place-items:center;
+width:165px;
+height:240px;
+margin:5px;
+}
+.card-cont img
+{
+border-radius:15px;
+width:155px;
+height:155px;
+margin:5px;
+}
+
+.story p
+{
+margin: 20px 75px 20px 75px;
+color:#ecf2d5;
+font-size:150%;
+}
+
+
+.review 
+{
+margin: 20px 75px 20px 75px;
+color:#ecf2d5;
+font-size:150%;
+}
+
+.review p
+{
+padding:10px;
+width:90vw;
+border: 2px black solid;
+border-radius:20px;
+}
+.review h3
+{color:black;}
+
+
+#ratings
+{
+margin:20px 50px 50px 50px;
+display:flex;
+justify-content:center;
+placeitems:center;
+}
+#ratings button
+{
+display:inline-block;
+border:none;
+background:transparent;
+text-align:left;
+}
+
+.star:hover
+{
+animation: rate 0.3s linear both;
+}
+.pre-result
+{width:100%;
+display:grid;
+place-items:center;
+
+}
+.result
+{
+width:95%;
+height:30px;
+font-size:140%;
+color:blue;
+text-align:center;
+border: 2px solid #5a5a44;
+border-radius: 12px;
+}
+
+
+@keyframes hov
+{
+0%{}
+
+100%
+{
+
+color:white;
+}
+
+}
+
+@keyframes car
+{
+0%{}
+
+100%{
+box-shadow:3px 3px 8px grey;
+}
+
+}
+
+
+@keyframes rate
+{
+0%{}
+
+100%
+{
+
+color:yellow;
+}
+
+}
+
+
+@keyframes change
+{
+0%{}
+
+100%
+{background: #ff2a2a}
+}
+
+
+}
